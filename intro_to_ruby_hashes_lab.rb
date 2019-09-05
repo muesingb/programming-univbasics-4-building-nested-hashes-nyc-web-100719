@@ -19,7 +19,7 @@ def monopoly_with_third_tier
 	{:railroads => {
 		:pieces => 4,
 		:rent_in_dollars => {
-			:names => 100, :collect => 100, :save => 100, :go => 100}
+			:pass_go => 100, :collect => 100, :save => 100, :go => 100}
 		}
 	}
 end
