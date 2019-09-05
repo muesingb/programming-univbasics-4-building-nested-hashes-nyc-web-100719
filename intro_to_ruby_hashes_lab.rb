@@ -20,7 +20,7 @@ def monopoly_with_third_tier
 		:pieces => 4,
 		:rent_in_dollars => {
 			:pass_go => 100, :collect => 100, :save => 100, :go => 100},
-		:names => {}
+		:names => {:key1 => 1, :key2 => 2, :key3 => 3, :key4 => 4}
 		}
 	}
 end
